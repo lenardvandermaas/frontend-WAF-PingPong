@@ -8,13 +8,15 @@ import { RegisterComponent } from './register/register.component';
 
 
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { LeaderStatsQueueComponent } from './leader-stats-queue/leader-stats-queue.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    LeaderStatsQueueComponent
   ],
   imports: [
     BrowserModule,
