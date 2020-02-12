@@ -39,13 +39,25 @@ body {
 
   border-radius: 15px;
 
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.12);
 
   &__title {
     h1 {
       margin: 0;
     }
     margin-bottom: 1em;
+  }
+  &__divider {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+
+    &:after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: rgba(0,0,0,0.1);
+    }
   }
 } 
 
