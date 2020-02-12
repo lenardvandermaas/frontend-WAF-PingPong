@@ -10,10 +10,12 @@ import { StatsComponent } from './main-app/stats/stats.component';
 const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
+  { path: 'match', component: RegisterComponent},
   { path: '', redirectTo: '/login', pathMatch: 'full'},
-  { path: 'leaderboard', component: LeaderboardComponent},
-  { path: 'stats', component: StatsComponent},
-  { path: 'queue', component: QueueComponent}
+
+  // { path: 'leaderboard', component: LeaderboardComponent},
+  // { path: 'stats', component: StatsComponent},
+  // { path: 'queue', component: QueueComponent}
 ];
 
 @NgModule({

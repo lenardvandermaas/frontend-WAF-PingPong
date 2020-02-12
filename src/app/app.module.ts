@@ -11,6 +11,9 @@ import { QueueComponent } from './main-app/queue/queue.component';
 import { StatsComponent } from './main-app/stats/stats.component';
 import { LoginComponent } from './user-management/login/login.component';
 import { RegisterComponent } from './user-management/register/register.component';
+import { MatchListComponent } from './match-list/match-list.component';
+import { MatchDetailsComponent } from './match-details/match-details.component';
+import { MatchConfirmComponent } from './match-confirm/match-confirm.component';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import { RegisterComponent } from './user-management/register/register.component
     QueueComponent,
     StatsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    MatchListComponent,
+    MatchDetailsComponent,
+    MatchConfirmComponent
   ],
   imports: [
     BrowserModule,
