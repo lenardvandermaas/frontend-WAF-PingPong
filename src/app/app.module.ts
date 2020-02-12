@@ -13,7 +13,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
     MainMenuComponent
   ],
   imports: [
