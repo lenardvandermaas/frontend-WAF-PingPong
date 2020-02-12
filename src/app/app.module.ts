@@ -3,24 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './user-management/login/login.component';
-import { RegisterComponent } from './user-management/register/register.component';
 
+import { LeaderboardComponent } from './main-app/leaderboard/leaderboard.component';
+import { QueueComponent } from './main-app/queue/queue.component';
+import { StatsComponent } from './main-app/stats/stats.component';
 
-import { MainMenuComponent } from './main-app/main-menu/main-menu.component';
-import { LeaderStatsQueueComponent } from './leader-stats-queue/leader-stats-queue.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoginComponent,
-    RegisterComponent,
-    MainMenuComponent,
-    LeaderStatsQueueComponent
+    AppComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

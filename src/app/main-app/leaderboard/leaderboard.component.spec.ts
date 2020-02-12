@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeaderStatsQueueComponent } from './leader-stats-queue.component';
+import { LeaderboardComponent } from './leaderboard.component';
 
-describe('LeaderStatsQueueComponent', () => {
-  let component: LeaderStatsQueueComponent;
-  let fixture: ComponentFixture<LeaderStatsQueueComponent>;
+describe('LeaderboardComponent', () => {
+  let component: LeaderboardComponent;
+  let fixture: ComponentFixture<LeaderboardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LeaderStatsQueueComponent ]
+      declarations: [ LeaderboardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LeaderStatsQueueComponent);
+    fixture = TestBed.createComponent(LeaderboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
