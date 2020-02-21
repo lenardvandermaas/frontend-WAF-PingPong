@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatchesService } from '../matches.service';
 
 @Component({
   selector: 'app-match-list',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatchListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private matchService: MatchesService) { }
+
+  matches: any;
 
   ngOnInit(): void {
+    this.matches = this.matchService.getMatches();
   }
 
 }

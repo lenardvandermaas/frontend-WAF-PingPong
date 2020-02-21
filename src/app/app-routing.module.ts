@@ -8,7 +8,7 @@ import { MatchDetailsComponent } from './match-details/match-details.component';
 import { MatchConfirmComponent } from './match-confirm/match-confirm.component';
 
 // import { LeaderboardComponent } from './main-app/leaderboard/leaderboard.component';
-// import { QueueComponent } from './main-app/queue/queue.component';
+import { QueueComponent } from './main-app/queue/queue.component';
 // import { StatsComponent } from './main-app/stats/stats.component';
 
 
@@ -22,7 +22,7 @@ const routes: Routes = [
 
   // { path: 'leaderboard', component: LeaderboardComponent},
   // { path: 'stats', component: StatsComponent},
-  // { path: 'queue', component: QueueComponent}
+  { path: 'queue', component: QueueComponent}
 ];
 
 @NgModule({

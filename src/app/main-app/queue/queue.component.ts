@@ -8,7 +8,7 @@ import {QueueService} from '../../queue-service.service';
 })
 export class QueueComponent implements OnInit {
 
-  queue = [];
+  queue: any = [];
 
   getQueue() {
     return this.queueService.getQueue();

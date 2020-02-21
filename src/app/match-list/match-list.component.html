@@ -1,1 +1,4 @@
-<p>match-list works!</p>
+<input #searchBox id="search-box"/>
+<div id="matchList" class="matchlist">
+  <div class="listItem" *ngFor="let name of matches">{{name}} &gt;</div>
+</div>
